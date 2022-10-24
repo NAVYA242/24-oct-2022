@@ -1,0 +1,246 @@
+*{
+			margin: 0%;
+			/*border: 1px solid green;*/
+		}
+		.navbar a{
+			text-decoration: none;
+			color: black;
+			font-size: 18px;
+			font-weight: bold;
+			margin: 1.5%;
+			margin-left: 1.5%;
+		}
+		.navbar img{
+			vertical-align: middle;
+			margin-left: 3%;
+		}
+		.navbar{
+			padding: 1%;	
+		}
+		#signin{
+			margin-left: 8%;
+			color: white;
+			background-color: #00baf2;
+			padding: 0.3% ;
+			border-radius: 25px;
+		}
+		.logo{
+			background-color: darkblue;
+		}
+		.msg{
+			text-align: center;
+			background-color: lightgrey;
+			padding: 1%;
+			font-size: 18px;
+		}
+		.sec2{
+			display: flex;
+			justify-content: space-between;
+			padding: 5% 0% 5% 9%;
+		}
+		.app{
+			font-size: 55px;
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+		}
+		.payimg{
+			margin-right: 7%;
+			padding-bottom: 7%;
+		}
+		/*.img{
+			margin-left: 38%;
+		}*/
+		.work{
+			font-size: 25px;
+			padding-top:1% ;
+			font-family: 'Poppins', sans-serif;
+		}
+		.download{
+			margin-top: 4%;
+			padding: 0.8%;
+			font-size: 20px;
+			background-color: black;
+			color: white;
+			border-radius: 30px;
+			width: 39%;
+			text-align: center;
+		}
+		.download:hover{
+			background-color: white;
+			color: black;
+			border: 1px solid black;
+		}
+		.fa-apple{
+			margin: 5%;
+		}
+		.sec3{
+			background-color: deepskyblue;
+			color: white;
+			padding: 4% 0% 1% 7%;
+			font-size: 30px;			
+		}
+		.img{
+			padding: 2% 0% 2% 3%;
+		}
+		.sec3 img{
+			margin: 1% 7% 0% 0%;
+			display:inline-flex ;
+		}
+		.matter{
+			display: flex;
+			font-size: 18px;
+			font-family: sans-serif;
+			margin-left: 0%;
+		}
+		.matter p{
+			margin: 0% 7.5% 0% 0%;
+			padding: 1% 0% 0% 0%;	
+		}
+		.sec4{
+			background-color: #0f4a8a;;
+			color: white;
+			padding: 4% 0% 1% 7%;
+			font-size: 30px;
+		}
+		.img{
+			padding: 2% 0% 5% 3%;
+		}
+		.sec4 img{
+			margin: 1% 7.5% 0% 0%;
+			display:inline-flex ;
+		}
+		.service{
+			display: flex;
+			font-size: 18px;
+			font-family: sans-serif;
+			margin-left: 0%;
+		}
+		.service p{
+			margin: 0% 7.8% 0% 0.6%;
+			padding: 1% 0% 0% 0%;	
+		}
+		.sec5{
+			padding: 7% 0% 2.5% 11%;
+			font-size: 29px;
+			font-family: bold;
+			background-color: aliceblue;
+			font-family: 'Poppins', sans-serif;
+		}
+		.wallet{
+			padding: 10% 0% 7% 9% ;
+			border-radius: 5%;
+		}
+		.store{
+			font-size: 35px;
+			padding: 8% 0% 5% 0%;
+			font-family: 'Poppins', sans-serif;
+		}
+		.wall{
+			display: inline-flex;
+			font-weight: bold;			
+			font-size: 14px;
+			padding-right: 3%;
+		}
+		.load{
+			font-size: 20px;
+			padding-top: 2%;
+		}
+		.download{
+			margin-top: 4%;
+			padding: 0.6%;
+			font-size: 15px;
+			background-color: black;
+			color: white;
+			border-radius: 30px;
+			width: 40%;
+			text-align: center;
+		}
+		.download:hover{
+			background-color: white;
+			color: black;
+			border: 1px solid black;
+		}
+		.itwo{
+			display: inline-flex;
+			background-color: white;
+		}
+		.pic{
+			padding-top: 5%;		
+		}
+		.sec6{
+			background-color: aliceblue;
+			padding: 7% 0% 6% 22%;
+			background-color: white;
+		}
+		.pay{
+			padding: 5% 0% 0% 0%;
+			font-size: 37px;
+			font-family: 'Poppins', sans-serif;
+		}
+		.bank{
+			font-family: 'Poppins', sans-serif;
+			font-size: 17px;
+			padding-top: 2%;
+		}
+		.loadapp{
+			margin-top: 4%;
+			padding: 0.2%;
+			font-size: 19px;
+			background-color: black;
+			color: white;
+			border-radius: 30px;
+			width: 48%;
+			text-align: center;
+		}
+		.loadapp:hover{
+			background-color: white;
+			color: black;
+			border: 1px solid black;
+		}
+		.paying{
+			display: flex;
+		}
+		.paid{
+			padding-left: 2%;
+		}
+		.money{
+			display: inline-flex;
+			font-weight: bold;
+			font-size: 18px;
+			padding-left: 10%;
+		}
+		.sec7{
+			background-color: aliceblue;
+			padding: 15% 0% 6% 10%;
+		}
+		.post{
+			padding: 15% 8% 0% 12%;
+			padding-bottom: 5%;
+		}
+		.wait{
+			font-size: 35px;
+			font-family: 'Poppins', sans-serif;
+			padding: 3% 8% 0% 14%;
+		}
+		.shop{
+			padding: 5% 5% 0% 14%;
+			font-size: 17px;
+			font-family: 'Poppins', sans-serif;
+		}
+		.shopping{
+			background-color: white;
+			display: flex;
+		}
+		.shoppy{
+			margin: 5% 15% 0% 15%;
+		}
+		.learn{
+			margin: 8% 6% 0% 12%;
+			background-color: darkblue;
+			color: white;
+			padding: 4% 4% 3% 5%;
+			text-align: center;
+			width: 20%;
+			border-radius: 30px;
+			font-size: 20px;
+		}
