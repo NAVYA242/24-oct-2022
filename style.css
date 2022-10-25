@@ -169,18 +169,19 @@
 		}
 		.sec6{
 			background-color: aliceblue;
-			padding: 7% 0% 6% 22%;
+			padding: 7% 0% 6% 15%;
 			background-color: white;
 		}
 		.pay{
 			padding: 5% 0% 0% 0%;
-			font-size: 37px;
+			font-size: 35px;
 			font-family: 'Poppins', sans-serif;
 		}
 		.bank{
 			font-family: 'Poppins', sans-serif;
-			font-size: 17px;
+			font-size: 0px;
 			padding-top: 2%;
+
 		}
 		.loadapp{
 			margin-top: 4%;
@@ -211,11 +212,11 @@
 		}
 		.sec7{
 			background-color: aliceblue;
-			padding: 15% 0% 6% 10%;
+			padding: 15% 8% 6% 15%;
 		}
 		.post{
-			padding: 15% 8% 0% 12%;
-			padding-bottom: 5%;
+			padding: 20% 8% 5% 12%;
+			
 		}
 		.wait{
 			font-size: 35px;
@@ -232,15 +233,125 @@
 			display: flex;
 		}
 		.shoppy{
-			margin: 5% 15% 0% 15%;
+			padding: 10% 15% 5% 15%;			
 		}
 		.learn{
-			margin: 8% 6% 0% 12%;
+			margin: 6% 6% 0% 12%;
 			background-color: darkblue;
 			color: white;
 			padding: 4% 4% 3% 5%;
 			text-align: center;
-			width: 20%;
+			width: 30%;
 			border-radius: 30px;
 			font-size: 20px;
 		}
+		.sec8{
+			background-color: aliceblue;
+			padding: 3% 10%;
+		}
+		.bank{
+			background-color: white;
+			padding: 3% ;
+			margin-right: 4%;
+		}
+		.cashback{
+			font-size: 35px;
+			padding: 2% 0% 0% 0%;
+		}
+		.credit{
+			font-size: 20px;
+			padding-top: 2%;
+		}
+		.card{
+			padding: 10% 0% 0% 0%;
+		}
+		.useful{
+			font-size: 35px;
+			padding: 2% 0% 0% 0%;
+			font-family: 'Poppins', sans-serif;
+		}
+		.credit2{
+			font-size: 22px;
+			padding-top: 2%;
+			font-family: 'Poppins', sans-serif;
+		}
+		.bank2{
+			background-color: white;
+			padding: 3%;
+		}
+		.card2{
+			padding: 8% 0% 0% 0%
+		}
+		.cards{
+			display: flex;
+		}
+		.finance{
+			 padding: 7% 0% 5% 13%;
+		}
+		.fin{
+		font-size: 40px;
+		font-family: 'Poppins', sans-serif;
+		 padding-bottom: 5%;
+		}
+		.imgfi{
+		padding-bottom: 2%;	
+		}
+		.bank{
+		padding-bottom: 3%;
+		padding-left: 1%;
+		font-size: 40px;
+		font-family: 'Poppins', sans-serif;
+		}
+		.Payment{
+		font-family: 'Poppins', sans-serif;
+		font-size: 20px;
+		}
+		.learn{
+		margin: 3% 6% 0% 1%;
+		background-color: darkblue;
+		color: white;
+		padding: 1.5%; 
+		text-align: center;
+		width: 30%;
+		border-radius: 30px;
+		font-size: 20px;
+		}
+		.sec9{
+		display: flex;
+		padding-bottom: 5%;
+		}
+		.imgsix{
+		margin: 25% 10% 5% 15%;
+		}
+		.imgei{
+				padding: 16% 0% 9% 25%;
+			}
+			.sec10{
+				background-color: aliceblue;
+				display: flex;
+				background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
+			}
+			.goal{
+				font-family: 'Poppins', sans-serif;
+				font-size: 34px;
+			}
+			.money{
+				padding: 8% 10% 2% 3%;
+			}
+			.Invest{
+				font-family: 'Poppins', sans-serif;
+				font-size: 20px;
+			}
+			.learn{
+				margin: 3% 6% 0% 1%;
+				background-color: darkblue;
+				color: white;
+				padding: 1%; 
+				text-align: center;
+				width: 30%;
+				border-radius: 30px;
+				font-size: 20px;
+			}
+			.cost{
+				padding: 5% 10% 9% 4%;
+			}
