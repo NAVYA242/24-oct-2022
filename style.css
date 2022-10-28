@@ -1,6 +1,6 @@
 * {
 	margin: 0%;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 
 .navbar a {
@@ -612,9 +612,9 @@
 	}
 }
 
-@media(max-width: 420px) {
+@media(max-width: 350px) {
 	.navbar a {
-		font-size: 5px;
+		font-size: 3px;
 	}
 
 	#signin {
@@ -626,18 +626,12 @@
 	}
 
 	.app {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.work {
-		font-size: 8px;
+		font-size: 5px;
 	}
-
-	.download,
-	{
-	width: 66%;
-	font-size: 10px;
-}
 
 .sec3,
 .sec4 {
@@ -678,8 +672,8 @@
 .download,
 .loadapp,
 .learn {
-	width: 70%;
-	font-size: 10px;
+	width: 60%;
+	font-size: 7px;
 }
 
 .load,
