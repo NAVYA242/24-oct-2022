@@ -1,468 +1,732 @@
-*{
-			margin: 0%;
-			border: 1px solid green;
-		}
-		.navbar a{
-			text-decoration: none;
-			color: black;
-			font-size: 18px;
-			font-weight: bold;
-			margin: 1.5%;
-			margin-left: 1.5%;
-		}
-		.navbar img{
-			vertical-align: middle;
-			margin-left: 3%;
-		}
-		.navbar{
-			padding: 1%;	
-		}
-		#signin{
-			margin-left: 8%;
-			color: white;
-			background-color: #00baf2;
-			padding: 0.3% ;
-			border-radius: 25px;
-		}
-		.logo{
-			background-color: darkblue;
-		}
-		.msg{
-			text-align: center;
-			background-color: #f6f6f6;
-			padding: 1%;
-			font-size: 18px;
-		}
-		.sec2{
-			display: flex;
-			justify-content: space-between;
-			padding: 5% 0% 5% 9%;
-		}
-		.app{
-			font-size: 45px;
-			font-weight: bold;
-			font-family: 'Poppins', sans-serif;
-		}	
-		.payimg{
-			margin-right: 7%;
-			padding-bottom: 7%;
-		}
-		/*.img{
+* {
+	margin: 0%;
+	border: 1px solid green;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 1.5%;
+	margin-left: 1.5%;
+}
+
+.navbar img {
+	vertical-align: middle;
+	margin-left: 3%;
+}
+
+.navbar {
+	padding: 1%;
+}
+
+#signin {
+	margin-left: 8%;
+	color: white;
+	background-color: #00baf2;
+	padding: 0.3%;
+	border-radius: 25px;
+}
+
+.logo {
+	background-color: darkblue;
+}
+
+.msg {
+	text-align: center;
+	background-color: #f6f6f6;
+	padding: 1%;
+	font-size: 18px;
+}
+
+.sec2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0% 5% 9%;
+}
+
+.app {
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.payimg {
+	margin-right: 7%;
+	padding-bottom: 7%;
+}
+
+/*.img{
 			margin-left: 38%;
 		}*/
-		.work{
-			font-size: 20px;
-			padding-top:1% ;
-			font-family: 'Poppins', sans-serif;
-		}
-		.download{
-			margin-top: 4%;
-			padding: 0.8%;
-			font-size: 20px;
-			background-color: black;
-			color: white;
-			border-radius: 30px;
-			width: 39%;
-			text-align: center;
-		}
-		.download:hover{
-			background-color: white;
-			color: black;
-			border: 1px solid black;
-		}
-		.fa-apple{
-			margin: 5%;
-		}
-		.sec3{
-			background-color: deepskyblue;
-			color: white;
-			padding: 4% 0% 1% 7%;
-			font-size: 30px;			
-		}
-		.img{
-			padding: 2% 0% 2% 3%;
-		}
-		.sec3 img{
-			margin: 1% 7% 0% 0%;
-			display:inline-flex ;
-		}
-		.matter{
-			display: flex;
-			font-size: 18px;
-			font-family: sans-serif;
-			margin-left: 0%;
-		}
-		.matter p{
-			margin: 0% 7.5% 0% 0%;
-			padding: 1% 0% 0% 0%;	
-		}
-		.sec4{
-			background-color: #0f4a8a;;
-			color: white;
-			padding: 4% 0% 1% 7%;
-			font-size: 30px;
-		}
-		.img{
-			padding: 2% 0% 5% 3%;
-		}
-		.sec4 img{
-			margin: 1% 7.5% 0% 0%;
-			display:inline-flex ;
-		}
-		.service{
-			display: flex;
-			font-size: 18px;
-			font-family: sans-serif;
-			margin-left: 0%;
-		}
-		.service p{
-			margin: 0% 7.8% 0% 0.6%;
-			padding: 1% 0% 0% 0%;	
-		}
-		.sec5{
-			padding: 7% 0% 2.5% 11%;
-			font-size: 29px;
-			font-family: bold;
-			background-color: aliceblue;
-			font-family: 'Poppins', sans-serif;
-		}
-		.wallet{
-			padding: 10% 0% 7% 9% ;
-			border-radius: 5%;
-		}
-		.store{
-			font-size: 35px;
-			padding: 8% 0% 5% 0%;
-			font-family: 'Poppins', sans-serif;
-		}
-		.wall{
-			display: inline-flex;
-			font-weight: bold;			
-			font-size: 14px;
-			padding-right: 3%;
-		}
-		.load{
-			font-size: 20px;
-			padding-top: 2%;
-		}
-		.download{
-			margin-top: 4%;
-			padding: 0.6%;
-			font-size: 15px;
-			background-color: black;
-			color: white;
-			border-radius: 30px;
-			width: 40%;
-			text-align: center;
-		}
-		.download:hover{
-			background-color: white;
-			color: black;
-			border: 1px solid black;
-		}
-		.itwo{
-			display: inline-flex;
-			background-color: white;
-		}
-		.pic{
-			padding-top: 5%;		
-		}
-		.sec6{
-			background-color: aliceblue;
-			padding: 7% 0% 6% 15%;
-			background-color: white;
-			margin: 4%;
-		}
-		.pay{
-			padding: 5% 0% 0% 0%;
-			font-size: 35px;
-			font-family: 'Poppins', sans-serif;
-		}
-		.loadapp{
-			margin-top: 4%;
-			padding: 0.2%;
-			font-size: 19px;
-			background-color: black;
-			color: white;
-			border-radius: 30px;
-			width: 48%;
-			text-align: center;
-		}
-		.loadapp:hover{
-			background-color: white;
-			color: black;
-			border: 1px solid black;
-		}
-		.paying{
-			display: flex;
-		}
-		.paid{
-			padding-left: 2%;
-		}
-		.money{
-			display: inline-flex;
-			font-weight: bold;
-			font-size: 18px;
-			padding-left: 10%;
-		}
-		.sec7{
-			background-color: aliceblue;
-			padding: 15% 8% 6% 15%;
-		}
-		.post{
-			padding: 20% 8% 5% 12%;
-		}
-		.wait{
-			font-size: 35px;
-			font-family: 'Poppins', sans-serif;
-			padding: 3% 8% 0% 14%;
-		}
-		.shop{
-			padding: 5% 5% 0% 14%;
-			font-size: 17px;
-			font-family: 'Poppins', sans-serif;
-		}
-		.shopping{
-			background-color: white;
-			display: flex;
-		}
-		.shoppy{
-			padding: 10% 15% 5% 15%;			
-		}
-		.learn{
-			margin: 6% 6% 0% 12%;
-			background-color: darkblue;
-			color: white;
-			padding: 4% 4% 3% 5%;
-			text-align: center;
-			width: 30%;
-			border-radius: 30px;
-			font-size: 20px;
-		}
-		.sec8{
-			background-color: aliceblue;
-			padding: 3% 10%;
-		}
-		.bank{
-			background-color: white;
-			padding: 3% ;
-			margin-right: 4%;
-		}
-		.cashback{
-			font-size: 35px;
-			padding: 2% 0% 0% 0%;
-		}
-		.credit{
-			font-size: 20px;
-			padding-top: 2%;
-		}
-		.card{
-			padding: 10% 0% 0% 0%;
-		}
-		.useful{
-			font-size: 35px;
-			padding: 2% 0% 0% 0%;
-			font-family: 'Poppins', sans-serif;
-		}
-		.credit2{
-			font-size: 22px;
-			padding-top: 2%;
-			font-family: 'Poppins', sans-serif;
-		}
-		.bank2{
-			background-color: white;
-			padding: 3%;
-		}
-		.card2{
-			padding: 8% 0% 0% 0%
-		}
-		.cards{
-			display: flex;
-		}
-		.finance{
-			 padding: 7% 0% 5% 13%;
-		}
-		.fin{
-		font-size: 40px;
-		font-family: 'Poppins', sans-serif;
-		 padding-bottom: 5%;
-		}
-		.imgfi{
-		padding-bottom: 2%;	
-		}
-		.bank{
-		padding-bottom: 3%;
-		padding-left: 1%;
-		font-size: 40px;
-		font-family: 'Poppins', sans-serif;
-		}
-		.Payment{
-		font-family: 'Poppins', sans-serif;
+.work {
+	font-size: 20px;
+	padding-top: 1%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.download {
+	margin-top: 4%;
+	padding: 0.8%;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	width: 39%;
+	text-align: center;
+}
+
+.download:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.fa-apple {
+	margin: 5%;
+}
+
+.sec3 {
+	background-color: deepskyblue;
+	color: white;
+	padding: 4% 0% 1% 7%;
+	font-size: 30px;
+}
+
+.sec3a {
+	justify-content: space-between;
+	display: flex;
+	margin-top: 2%;
+
+}
+
+.sec3a a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	width: 20%;
+}
+
+.sec3 img {
+	margin: 1% 7% 0% 0%;
+	display: inline-flex;
+}
+
+.matter {
+	display: flex;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-left: 0%;
+}
+
+.matter p {
+	margin: 0% 7.5% 0% 0%;
+	padding: 1% 0% 0% 0%;
+}
+
+.sec4 {
+	background-color: #0f4a8a;
+	;
+	color: white;
+	padding: 4% 0% 1% 7%;
+	font-size: 30px;
+}
+
+.img {
+	padding: 2% 0% 5% 3%;
+}
+
+.sec4 img {
+	margin: 1% 7.5% 0% 0%;
+	display: inline-flex;
+}
+
+.service {
+	display: flex;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin-left: 0%;
+}
+
+.service p {
+	margin: 0% 7.8% 0% 0.6%;
+	padding: 1% 0% 0% 0%;
+}
+
+.sec5 {
+	padding: 7% 0% 2.5% 11%;
+	font-size: 29px;
+	font-family: bold;
+	background-color: aliceblue;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wallet {
+	padding: 10% 0% 7% 9%;
+	border-radius: 5%;
+}
+
+.store {
+	font-size: 35px;
+	padding: 8% 0% 5% 0%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wall {
+	display: inline-flex;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 3%;
+}
+
+.load {
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+.download {
+	margin-top: 4%;
+	padding: 0.6%;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	width: 40%;
+	text-align: center;
+}
+
+.download:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.itwo {
+	display: inline-flex;
+	background-color: white;
+}
+
+.pic {
+	padding-top: 5%;
+}
+
+.sec6 {
+	background-color: aliceblue;
+	padding: 7% 0% 6% 15%;
+	background-color: white;
+	margin: 4%;
+}
+
+.pay {
+	padding: 5% 0% 0% 0%;
+	font-size: 35px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.loadapp {
+	margin-top: 4%;
+	padding: 0.2%;
+	font-size: 19px;
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+	width: 48%;
+	text-align: center;
+}
+
+.loadapp:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.paying {
+	display: flex;
+}
+
+.paid {
+	padding-left: 2%;
+}
+
+.money {
+	display: inline-flex;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 10%;
+}
+
+.sec7 {
+	background-color: aliceblue;
+	padding: 15% 8% 6% 15%;
+}
+
+.post {
+	padding: 20% 8% 5% 12%;
+}
+
+.wait {
+	font-size: 35px;
+	font-family: 'Poppins', sans-serif;
+	padding: 3% 8% 0% 14%;
+}
+
+.shop {
+	padding: 5% 5% 0% 14%;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.shopping {
+	background-color: white;
+	display: flex;
+}
+
+.shoppy {
+	padding: 10% 15% 5% 15%;
+}
+
+.learn {
+	margin: 6% 6% 0% 12%;
+	background-color: darkblue;
+	color: white;
+	padding: 4% 4% 3% 5%;
+	text-align: center;
+	width: 30%;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.sec8 {
+	background-color: aliceblue;
+	padding: 3% 10%;
+}
+
+.bank {
+	background-color: white;
+	padding: 3%;
+	margin-right: 4%;
+}
+
+.cashback {
+	font-size: 35px;
+	padding: 2% 0% 0% 0%;
+}
+
+.credit {
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+.card {
+	padding: 10% 0% 0% 0%;
+}
+
+.useful {
+	font-size: 35px;
+	padding: 2% 0% 0% 0%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.credit2 {
+	font-size: 22px;
+	padding-top: 2%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.bank2 {
+	background-color: white;
+	padding: 3%;
+}
+
+.card2 {
+	padding: 8% 0% 0% 0%
+}
+
+.cards {
+	display: flex;
+}
+
+.finance {
+	padding: 7% 0% 5% 13%;
+}
+
+.fin {
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 5%;
+}
+
+.imgfi {
+	padding-bottom: 2%;
+}
+
+.bank {
+	padding-bottom: 3%;
+	padding-left: 1%;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.Payment {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+.learn {
+	margin: 3% 6% 0% 1%;
+	background-color: darkblue;
+	color: white;
+	padding: 1.5%;
+	text-align: center;
+	width: 30%;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.sec9 {
+	display: flex;
+	padding-bottom: 5%;
+}
+
+.imgsix {
+	margin: 25% 10% 5% 15%;
+}
+
+.imgei {
+	padding: 16% 0% 9% 25%;
+}
+
+.sec10 {
+	background-color: aliceblue;
+	display: flex;
+	background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
+}
+
+.goal {
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+}
+
+.money {
+	padding: 8% 10% 2% 3%;
+}
+
+.Invest {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+.learn {
+	margin: 3% 6% 0% 1%;
+	background-color: darkblue;
+	color: white;
+	padding: 1%;
+	text-align: center;
+	width: 30%;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.cost {
+	padding: 5% 10% 9% 4%;
+}
+
+.sec11 {
+	display: flex;
+}
+
+.nine {
+	padding: 15% 18%;
+}
+
+.sec12 {
+	background-color: aliceblue;
+}
+
+.ten {
+	padding: 5% 0% 6% 12%;
+}
+
+.loan {
+	padding-bottom: 5%;
+}
+
+.personal {
+	font-size: 45px;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 5%;
+}
+
+.offer {
+	display: flex;
+}
+
+.loan1 {
+	padding: 5% 0% 6% 12%;
+}
+
+.offers {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.learn {
+	margin: 8% 6% 0% 12%;
+	background-color: darkblue;
+	color: white;
+	padding: 3% 4% 2% 5%;
+	text-align: center;
+	width: 25%;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.business {
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+}
+
+.sec13 {
+	padding: 8% 0% 5% 12%;
+}
+
+.online {
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+}
+
+.grow {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding-bottom: 5%;
+}
+
+.accept {
+	margin: 2% 5% 7% 0%;
+
+}
+
+.gate {
+	display: flex;
+	background-color: aliceblue;
+	padding: 12% 0% 5% 6%;
+	margin-right: 5%;
+}
+
+.learn {
+	background-color: darkblue;
+	color: white;
+	padding: 1% 2% 2% 3%;
+	width: 30%;
+}
+
+.learn:hover {
+	background-color: skyblue;
+}
+
+.shop {
+	background-color: aliceblue;
+	padding: 12% 0% 5% 6%;
+	display: flex;
+	margin: 2% 5% 7% 10%;
+}
+
+.inshop {
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	padding-bottom: 3%;
+}
+
+.help {
+	font-family: 'Poppins', sans-serif;
+	font-size: 37px;
+	margin: 5% 5% 3% 15%;
+}
+
+.manage img {
+	padding-bottom: 7%;
+}
+
+.manage h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 28px;
+	padding-bottom: 3%;
+}
+
+.manage p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+
+.secure {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+.insur {
+	padding: 8% 0% 7% 12%;
+}
+
+.img {
+	padding-bottom: 3%;
+}
+
+.easy {
+	font-size: 38px;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 4%;
+}
+
+.buy {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.money2 {
+	padding: 8% 0% 4% 12%;
+}
+
+.img {
+	padding-bottom: 3%;
+}
+
+.Get {
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+}
+
+.images {
+	display: inline-flex;
+	flex;
+}
+
+@media(max-width: 1365px) {
+	.matter p {
+		margin: 0% 7% 0% 0%;
+	}
+
+	.sec3 img {
+		padding: 1% 8.5% 0% 0%;
+	}
+}
+
+@media(max-width: 420px) {
+	.navbar a {
+		font-size: 5px;
+	}
+
+	#signin {
+		margin-left: 4%;
+	}
+
+	.msg {
+		font-size: 8px;
+	}
+
+	.app {
 		font-size: 20px;
-		}
-		.learn{
-		margin: 3% 6% 0% 1%;
-		background-color: darkblue;
-		color: white;
-		padding: 1.5%; 
-		text-align: center;
-		width: 30%;
-		border-radius: 30px;
-		font-size: 20px;
-		}
-		.sec9{
-		display: flex;
-		padding-bottom: 5%;
-		}
-		.imgsix{
-		margin: 25% 10% 5% 15%;
-		}
-		.imgei{
-				padding: 16% 0% 9% 25%;
-			}
-			.sec10{
-				background-color: aliceblue;
-				display: flex;
-				background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
-			}
-			.goal{
-				font-family: 'Poppins', sans-serif;
-				font-size: 34px;
-			}
-			.money{
-				padding: 8% 10% 2% 3%;
-			}
-			.Invest{
-				font-family: 'Poppins', sans-serif;
-				font-size: 20px;
-			}
-			.learn{
-				margin: 3% 6% 0% 1%;
-				background-color: darkblue;
-				color: white;
-				padding: 1%; 
-				text-align: center;
-				width: 30%;
-				border-radius: 30px;
-				font-size: 20px;
-			}
-			.cost{
-				padding: 5% 10% 9% 4%;
-		}
-		.sec11{
-				display: flex;
-			}
-			.nine{
-				padding: 15% 18%;
-			}
-			.sec12{
-				background-color: aliceblue;
-			}
-			.ten{
-				padding: 5% 0% 6% 12%;
-			}
-			.loan{
-				padding-bottom: 5%;
-			}
-			.personal{
-				font-size: 45px;
-				font-family: 'Poppins', sans-serif;
-				padding-bottom: 5%;
-			}
-			.offer{
-				display: flex;
-			}
-			.loan1{
-				padding: 5% 0% 6% 12%;
-			}
-			.offers{
-				font-size: 20px;
-				font-family: 'Poppins', sans-serif;
-			}
-			.learn{
-			margin: 8% 6% 0% 12%;
-			background-color: darkblue;
-			color: white;
-			padding: 3% 4% 2% 5%;
-			text-align: center;
-			width: 25%;
-			border-radius: 30px;
-			font-size: 20px;
-		}
-		.business{
-			font-family: 'Poppins', sans-serif;
-			font-size: 45px;
-		}
-		.sec13{
-			padding: 8% 0% 5% 12%;
-		}
-		.online{
-			font-family: 'Poppins', sans-serif;
-			font-size: 40px;
-		}
-		.grow{
-			font-family: 'Poppins', sans-serif;
-			font-size: 20px;
-			padding-bottom: 5%;
-		}
-		.accept{
-			margin: 2% 5% 7% 0%;
-			
-		}
-		.gate{
-			display: flex;
-			background-color: aliceblue;
-			padding: 12% 0% 5% 6% ;
-			margin-right: 5%;
-		}
-		.learn{
-			background-color: darkblue;
-			color: white;
-			padding: 1% 2% 2% 3%;
-			width: 30%;
-		}
-		.learn:hover{
-			background-color: skyblue;
-		}
-		.shop{
-			background-color: aliceblue;
-			padding: 12% 0% 5% 6% ;
-			display: flex;
-			margin: 2% 5% 7% 10%;
-		}
-		.inshop{
-			font-family: 'Poppins', sans-serif;
-			font-size: 40px;
-			padding-bottom: 3%;
-		}
-		.help{
-			font-family: 'Poppins', sans-serif;
-			font-size: 37px;
-			margin: 5% 5% 3% 15%;
-		}
-		
-		.manage img{
-			padding-bottom: 7%;
-		}
-		.manage h1{
-			font-family: 'Poppins', sans-serif;
-			font-size: 28px;
-			padding-bottom: 3%;
-		}
-		.manage p{
-			font-family: 'Poppins', sans-serif;
-			font-size: 15px;
-		}
-		.secure{
-			font-family: 'Poppins', sans-serif;
-			font-size: 20px;
-			padding-top: 2%;
-		}
-		@media(max-width: 1365px){
-			.matter p{
-				margin: 0% 7% 0% 0%;
-			}
-			.sec3 img{
-				padding: 1% 8.5% 0% 0%;
-			}
-		}
+	}
+
+	.work {
+		font-size: 8px;
+	}
+
+	.download,
+	{
+	width: 66%;
+	font-size: 10px;
+}
+
+.sec3,
+.sec4 {
+	font-size: 15px;
+}
+
+.sec3a a {
+	font-size: 10px;
+}
+
+.sec5 {
+	font-size: 12px;
+}
+
+.store,
+.pay,
+.wait,
+.useful,
+.cashback,
+.fin,
+.bank,
+.easy,
+.personal,
+.business,
+.online,
+.goal,
+.inshop,
+.help {
+	font-size: 10px;
+}
+
+.wall,
+.money,
+.shop {
+	font-size: 5px;
+}
+
+.download,
+.loadapp,
+.learn {
+	width: 70%;
+	font-size: 10px;
+}
+
+.load,
+.secure,
+.credit,
+.credit2,
+.Payment,
+.Invest,
+.buy,
+.offers,
+.grow {
+	font-size: 5px;
+}
+
+.paid,
+.shoppy {
+	width: 23%;
+}
+
+.imgsix,
+.manage img {
+	width: 60%;
+}
+
+.learn {
+	width: 60%;
+	font-size: 8px;
+}
+
+.imgele,
+.eleei {
+	width: 70%;
+}
+
+.imgtwe {
+	width: 75%;
+}
+
+.manage h1 {
+	font-size: 8px;
+}
+
+.manage p {
+	font-size: 6px;
+}
+
+.manage {
+	padding-left: 15%;
+}
+}
